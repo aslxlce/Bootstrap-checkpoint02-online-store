@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .header {
+        background: linear-gradient(to right, #22d3ee00 0%, #22d3ee 50%, #22d3ee00 100%);
+        @apply border border-gray-700;
+    }
+    .main {
+        background: linear-gradient(to right, #22d3ee00 0%, #ee5c22 50%, #22d3ee00 100%);
+    }
+    .bx {
+        @apply border border-gray-700 p-1 rounded-sm;
+    }
+
+    .bx:hover {
+        @apply border-none bg-black text-white;
+    }
+
+    .card {
+        @apply border border-gray-700/20 bg-transparent rounded-2xl p-6 flex flex-col gap-6;
+    }
+
+    .theButton {
+        background: linear-gradient(to right, #22d3ee00 0%, #22d3ee 50%, #22d3ee00 100%);
+        @apply border border-gray-700 text-purple-800 p-3;
+    }
+
+    .footer {
+        background: linear-gradient(to right, #22d3ee00 0%, #8a1b81 50%, #22d3ee00 100%);
+    }
+}

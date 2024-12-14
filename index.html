@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Online Store</title>
+        <link rel="stylesheet" href="styles/input.css" />
+        <link rel="stylesheet" href="styles/output.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jaro:opsz@6..72&family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedgwick+Ave+Display&display=swap"
+            rel="stylesheet"
+        />
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    </head>
+    <body class="flex flex-col font-sedgwick main gap-20">
+        <!-- Header starts here  -->
+        <header class="flex justify-between items-center p-8 header">
+            <div class="sm:text-7xl text-4xl">Logo</div>
+            <nav class="sm:block hidden">
+                <ul class="flex justify-between gap-10">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="sm:hidden">
+                <i class="bx bx-menu"></i>
+            </div>
+        </header>
+        <!-- main section  -->
+        <main class="mx-10">
+            <!-- Products section  -->
+            <section id="Products" class="flex justify-between items-center">
+                <div class="grid grid-cols-12 gap-8">
+                    <!-- first card  -->
+                    <div class="xl:col-span-3 lg:col-span-4 md:col-span-6 sm:col-span-12 card">
+                        <img src="images/nice-x-travisscott.jpg" alt="" />
+                        <h3 class="text-lg font-medium">Nike X Travis Scott</h3>
+                        <p>Your new favorite sneakers.</p>
+                        <button class="theButton">Shop Now</button>
+                    </div>
+                    <!-- second card  -->
+                    <div class="xl:col-span-3 lg:col-span-4 md:col-span-6 sm:col-span-12 card">
+                        <img src="images/FC Barcelona 24-25 Away Kit.jpg" alt="" />
+                        <h3 class="text-lg font-medium">FCB 2nd kit</h3>
+                        <p>Your kit toward victory.</p>
+                        <button class="theButton">Shop Now</button>
+                    </div>
+                    <!-- third card  -->
+                    <div class="xl:col-span-3 lg:col-span-4 md:col-span-6 sm:col-span-12 card">
+                        <img src="images/nice-x-travisscott.jpg" alt="" />
+                        <h3 class="text-lg font-medium">Nike X Travis Scott</h3>
+                        <p>Your new favorite sneakers.</p>
+                        <button class="theButton">Shop Now</button>
+                    </div>
+                    <!-- fourth card  -->
+                    <div class="xl:col-span-3 lg:col-span-4 md:col-span-6 sm:col-span-12 card">
+                        <img src="images/nice-x-travisscott.jpg" alt="" />
+                        <h3 class="text-lg font-medium">Nike X Travis Scott</h3>
+                        <p>Your new favorite sneakers.</p>
+                        <button class="theButton">Shop Now</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer text-white py-6">
+            <div class="container mx-auto text-center">
+                <!-- Footer Content -->
+                <div class="mb-4">
+                    <h2 class="text-lg font-bold">name of store</h2>
+                    <p class="text-sm">Whatever Caption.</p>
+                </div>
+
+                <!-- Social Media Links -->
+                <div class="flex justify-center space-x-6 mb-4">
+                    <a href="#" class="text-gray-700 hover:text-white">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-5 h-5"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                        >
+                            <path
+                                d="M22.23 5.924c-.793.35-1.647.586-2.542.69a4.51 4.51 0 0 0 1.98-2.493c-.884.52-1.86.898-2.897 1.1a4.507 4.507 0 0 0-7.687 4.112A12.797 12.797 0 0 1 2.29 4.875a4.505 4.505 0 0 0 1.396 6.018 4.483 4.483 0 0 1-2.042-.564v.057a4.506 4.506 0 0 0 3.612 4.414 4.524 4.524 0 0 1-2.038.077 4.508 4.508 0 0 0 4.205 3.122A9.035 9.035 0 0 1 1.5 19.163a12.713 12.713 0 0 0 6.892 2.02c8.277 0 12.804-6.856 12.804-12.805 0-.195-.004-.39-.013-.583a9.162 9.162 0 0 0 2.25-2.342z"
+                            />
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-700 hover:text-white">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-5 h-5"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                        >
+                            <path
+                                d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24h21.351C23.407 24 24 23.407 24 22.675V1.325C24 .593 23.407 0 22.675 0zM7.153 20.447H3.768V9.56h3.385v10.887zm-1.692-12.4c-1.081 0-1.957-.875-1.957-1.957 0-1.081.875-1.957 1.957-1.957s1.957.875 1.957 1.957c0 1.081-.875 1.957-1.957 1.957zM20.447 20.447h-3.385v-5.926c0-1.413-.028-3.233-1.973-3.233-1.977 0-2.281 1.54-2.281 3.127v6.032h-3.385V9.56h3.252v1.496h.047c.453-.859 1.561-1.762 3.211-1.762 3.435 0 4.066 2.26 4.066 5.199v6.954z"
+                            />
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-700 hover:text-white">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-5 h-5"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                        >
+                            <path
+                                d="M12 0C5.373 0 0 5.373 0 12c0 5.325 3.438 9.8 8.205 11.385-.112-.964-.214-2.448.045-3.494.238-.994 1.533-6.317 1.533-6.317s-.39-.78-.39-1.937c0-1.816 1.053-3.178 2.367-3.178 1.116 0 1.654.837 1.654 1.84 0 1.118-.715 2.79-1.083 4.338-.308 1.258.646 2.287 1.92 2.287 2.304 0 4.075-2.43 4.075-5.93 0-2.896-2.082-4.918-5.049-4.918-3.449 0-5.48 2.579-5.48 5.24 0 1.03.398 2.135.896 2.733.1.117.114.22.084.337-.093.38-.305 1.258-.345 1.432-.053.227-.175.277-.408.167-1.531-.687-2.493-2.843-2.493-4.572 0-3.737 2.712-7.162 7.814-7.162 4.09 0 7.277 2.916 7.277 6.807 0 4.056-2.555 7.32-6.099 7.32-1.187 0-2.304-.618-2.686-1.344l-.732 2.786c-.266 1.017-.986 2.295-1.47 3.073A12.015 12.015 0 0 0 12 24c6.627 0 12-5.373 12-12C24 5.373 18.627 0 12 0z"
+                            />
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Copyright -->
+                <p class="text-sm">&copy; 2024 Store name. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
