@@ -640,6 +640,10 @@ video {
   background: linear-gradient(to right, #22d3ee00 0%, #8a1b81 50%, #22d3ee00 100%);
 }
 
+.col-span-12 {
+  grid-column: span 12 / span 12;
+}
+
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -712,11 +716,6 @@ video {
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.bg-gray-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
-}
-
 .p-8 {
   padding: 2rem;
 }
@@ -728,6 +727,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.font-marvel {
+  font-family: Marvel, sans-serif;
 }
 
 .font-sedgwick {
@@ -757,19 +760,18 @@ video {
   font-weight: 500;
 }
 
-.text-gray-400 {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-white:hover {
@@ -778,18 +780,6 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:col-span-12 {
-    grid-column: span 12 / span 12;
-  }
-
-  .sm\:block {
-    display: block;
-  }
-
-  .sm\:hidden {
-    display: none;
-  }
-
   .sm\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
@@ -799,6 +789,14 @@ video {
 @media (min-width: 768px) {
   .md\:col-span-6 {
     grid-column: span 6 / span 6;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 }
 

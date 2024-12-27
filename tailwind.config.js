@@ -5,6 +5,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 sedgwick: ["Sedgwick Ave Display", "sans-serif"],
+                marvel: ["Marvel", "sans-serif"],
             },
         },
     },
